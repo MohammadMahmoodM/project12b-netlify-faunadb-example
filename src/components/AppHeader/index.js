@@ -32,7 +32,7 @@ const AppHeader = (props) => {
               rel='noopener noreferrer'
               href='https://github.com/netlify/netlify-faunadb-example'>
               <img className='github-icon' src={github} alt='view repo on github' />
-              View the source Luke
+              View the source Link
             </a>
           </div>
         </div>
