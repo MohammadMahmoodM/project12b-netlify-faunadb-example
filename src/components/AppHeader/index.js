@@ -1,5 +1,4 @@
 import React from 'react'
-import deployButton from '../../assets/deploy-to-netlify.svg'
 import logo from '../../assets/logo.svg'
 import github from '../../assets/github.svg'
 import styles from './AppHeader.css' // eslint-disable-line
@@ -23,18 +22,10 @@ const AppHeader = (props) => {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            href='https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example&stack=fauna'>
-            <img src={deployButton} className='deploy-button' alt='deploy to netlify' />
+            href='https://github.com/mahmoodlegend/project12b-netlify-faunadb-example'>
+            <img className='github-icon' src={github} alt='view repo on github' />
+            View the source Link
           </a>
-          <div className='view-src'>
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://github.com/netlify/netlify-faunadb-example'>
-              <img className='github-icon' src={github} alt='view repo on github' />
-              View the source Link
-            </a>
-          </div>
         </div>
       </div>
     </header>
